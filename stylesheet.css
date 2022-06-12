@@ -1,0 +1,272 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@100;200;300;400;500;600;700&display=swap');
+
+body {
+    font-family: 'IBM Plex Sans', monospace !important;
+    color: #3c3c3c;
+}
+
+.ho-borderadd {
+    border-left: 1px solid #dbdbdb;
+    padding-left: 30px;
+}
+
+.ho-borderright {
+    padding-right: 30px;
+}
+
+@media (max-width: 992px) {
+    .ho-borderadd {
+        border-left: 0px solid #dbdbdb;
+        padding-left: 0px;
+    }
+    
+    .ho-borderright {
+        padding-right: 0px;
+    }
+}
+
+.ho-left-content {
+
+}
+
+.ho-greycolor {
+    color: #989898;
+}
+
+.ho-month {
+    font-size: 11px;
+}
+
+.ho-orangecolor {
+    font-size: 11px;
+    color: #E79902;
+}
+
+.ho-bttns a {
+    text-decoration: none;
+    padding: 3px 10px;
+    text-transform: uppercase;
+    font-weight: 500;
+    text-align: left;
+    transition: 0.4s;
+}
+
+.ho-bttns a:hover {
+    color: #FD0098;
+}
+
+.ho-active-btn {
+    background-color: #FFE6F5;
+    border-left: 5px solid #FD0098;
+}
+
+.ho-plus {
+    margin-top: -10px;
+    font-size: 24px;
+}
+
+.ho-bttns a:hover {
+    background-color: #FFE6F5;
+    border-left: 5px solid #FD0098;
+}
+
+.ho-middlecontent {
+   
+}
+
+@media (max-width: 992px) {
+    .ho-middlecontent {
+        margin-top: 30px;
+    }   
+    
+    .ho-bttns {
+        margin-top: 15px;
+    }
+}
+
+h3 {
+    font-weight: 400;
+}
+
+.ho-estiheading {
+    
+}
+
+.ho-tablecontent {
+    border-top: 2px solid #f3f3f3;
+    padding: 7px 0px;
+    margin-top: 40px;
+    cursor: pointer;
+}
+
+.ho-completetable {
+    padding-left: 20px;
+}
+
+.ho-tablecontent h6 {
+    margin: 0;
+}
+
+.ho-datem {
+}
+
+.ho-datem p {
+    line-height: 11px;
+    font-size: 18px;
+}
+
+.ho-proj p {
+    margin: 0;
+    font-size: 10px;
+}
+
+.ho-wipdrop {
+    padding: 7px;
+    background-color: white;
+    position: absolute;
+    border: 1px solid black;
+    font-size: 10px;
+    display: none;
+}
+
+.ho-navtoggler {
+    border-left: 5px solid #FD0098;
+    padding-left: 19px;
+    font-size: 24px;
+    display: none;
+}
+
+@media (max-width:992px) {
+    .ho-navtoggler {
+        display: block;
+    }  
+}
+
+.ho-onhoverappear {
+    text-align: right;
+}
+
+.ho-onhoverappear a{
+    color: white !important;
+    font-size: 10px;
+}
+
+.ho-onhoverappear a:hover {
+    color: red !important;
+}
+
+.ho-completetable {
+    border-left:5px solid #FFF;
+}
+
+.ho-tablecontent:hover + .ho-onhoverappear a{  
+    color: red !important;
+}
+
+.ho-completetable:hover {
+    border-left:5px solid #FD0098;
+}
+.ho-onhoverappear a {
+    text-decoration: none;
+}
+
+.ho-activecompletetable {
+    border-left:5px solid #FD0098;
+}
+
+.ho-rightcontent h3 {
+    font-size: 18px;
+    margin-top: 44px;
+    margin-bottom: 29px;
+}
+
+.ho-rtopcontent {
+
+}
+
+.ho-rtopcontent h4 {
+    margin: 0;
+    font-size: 18px;
+}
+
+.ho-rtopcontent p {
+    margin: 0;
+    font-size: 10px;
+    margin-left: 12px;
+    margin-top: 6px;
+}
+
+.ho-rtopcontent a {
+    text-decoration: none;
+    font-size: 10px;
+    font-weight: 700;
+    margin: 0px 20px;
+}
+
+.ho-rmiddlecontent {
+  
+
+}
+
+.ho-rmiddlecontent input , .ho-rmiddlecontent select, .ho-rbottomcontent input{
+    border: 0;
+    border-bottom: 2px solid #dbdbdb;
+    margin-top: 28px;
+}
+
+.ho-rbottomcontent p {
+    font-size: 14px;
+    margin-top: -30px;
+    font-weight: 500;
+}
+
+.ho-rbottomcontent a {
+    color: red;
+    text-decoration: none;
+    font-size: 10px;
+}
+
+.ho-insertdiv {
+    margin-top: -30px;
+}
+
+::placeholder {
+    font-size: 13px;
+    color: #989898;
+}
+
+.ho-open {
+    display: block !important;
+}
+
+.ho-estimatorall {
+    display: none;
+}
+
+.ho-estimatorfirstplus {
+    display: none;
+}
+
+.ho-projectall {
+    display: none;
+}
+
+.ho-projectfirstplus {
+    display: none;
+}
+
+.ho-activityfirstplus {
+    display: none;
+}
+
+.ho-activitysecondplus {
+    display: none;
+}
+
+.ho-rightprojectall {
+    
+}
+
+.ho-activityall {
+    display: none;
+}
